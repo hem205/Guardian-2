@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+body{
+    /* background-color: rgb(72, 45, 111); */
+    background-image: url(./../IMG/chainmail\ texture.png), linear-gradient(rgb(72, 45, 111), rgb(8, 63, 109));
+    background-blend-mode:luminosity;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-image: url(./../IMG/elden-ring-nightreign-witch-like-character-standing-looking-out-at-a-purple-landscape-and-sky.avif);
+    background-position: 100% 40%;
+    padding: 20px;
+}
+
+header .pfp{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 18px rgba(34,34,34,0.6);
+    background-image: url('./../IMG/guardian\ pfp.jpeg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+header .pfp.ironeye {
+    background-image: url(./../IMG/ironeyepfp.jpg);
+    background-position: 0px 0px;
+    background-size: 100%;
+    border: 10px solid rgb(15, 79, 14);
+}
+
+h1{
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    color: rgb(215, 183, 0);
+}
+
+h1 .text-background{
+display: inline;
+background-color:rgba(47, 25, 78, 0.757);
+padding: 5px 25px 5px 25px;
+border-radius: 30px;
+}
+
+h2, p, ul, ol{
+    color: rgb(255, 255, 255);
+}
+
+p.caption{
+    font-size: 16px;
+    color: aliceblue;
+    font-style: oblique;
+    margin: 0;
+}
+
+p, ul, ol{
+    font-size: 19px;
+    line-height: 30px;
+     margin: auto;
+    padding: 0 20px 0 20px;
+}
+
+a{
+    color: rgb(215, 183, 0);
+}
+
+h2{  
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    color: rgb(215, 183, 0);
+
+}
+
+@media (max-width: 600px) {
+    h2{font-size: 40px;}
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+a:hover{
+    color:rgb(255, 217, 0)
+}
+
+a:active{
+    color:orangered
+}
+/* footer */
+footer{
+    background-color:rgb(8, 63, 109);
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer .content{
+      max-width: 800px;
+      margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
+    }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 60px;
+    }
+}
+
+p{
+    padding: 0 20px 20px 20px;
+}
+
+@media only screen and (max-width: 600px) { /* Adjust the breakpoint as needed */
+  body {
+    background-image: url(./../IMG/chainmail-mobile.png), linear-gradient(rgb(72, 45, 111), rgb(8, 63, 109));
+    background-repeat: no-repeat; /* adjust as needed */
+    background-size:auto; /* adjust as needed */
+    background-position:right; /* adjust as needed */
+  }
+}
